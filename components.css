@@ -1,0 +1,16 @@
+
+/* ===== 컴포넌트 ===== */
+.list{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:1rem;}
+.card{background:#fff;border:1px solid #e0e0e0;border-radius:8px;padding:1.1rem;box-shadow:0 2px 4px rgba(0,0,0,.05);}
+.card h3{margin-top:0;font-size:1.125rem;color:#00897b;}
+.card .meta{font-size:.85rem;color:#555;margin-bottom:.5rem;}
+
+form:not(.search-form){background:#fff;padding:1.75rem;border:1px solid #e0e0e0;border-radius:8px;box-shadow:0 2px 4px rgba(0,0,0,.05);}
+form:not(.search-form) label{display:block;margin-top:1rem;font-weight:600;}
+form:not(.search-form) input,form:not(.search-form) textarea,form:not(.search-form) select{width:100%;margin-top:.35rem;padding:.65rem;border:1px solid #bbb;border-radius:4px;font-size:.95rem;}
+form:not(.search-form) textarea{resize:vertical;}
+form:not(.search-form) button{margin-top:1.5rem;padding:.8rem 1.6rem;border:none;background:#00897b;color:#fff;font-size:1rem;border-radius:4px;cursor:pointer;}
+form:not(.search-form) button:hover{background:#00796b;}
+
+details{background:#fff;border:1px solid #e0e0e0;border-radius:6px;margin-bottom:.9rem;padding:1rem;box-shadow:0 2px 4px rgba(0,0,0,.05);}
+details summary{font-weight:600;cursor:pointer;}

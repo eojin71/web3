@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>분실물 게시판</title>
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="header-nav.css">
+<link rel="stylesheet" href="search.css">
+<link rel="stylesheet" href="layout.css">
+<link rel="stylesheet" href="components.css">
+<link rel="stylesheet" href="footer.css">
+</head>
+<body>
+
+<header>
+  <h1>분실물 게시판</h1>
+  <p>잃어버린 물건을 찾거나, 주운 물건을 등록하여 주인을 찾아주세요.</p>
+</header>
+
+
+<nav>
+  <a href="lost.html" class="">분실물</a>
+  <a href="found.html" class="active">습득물</a>
+  <a href="submit.html" class="">신고</a>
+  <a href="help.html" class="">이용안내</a>
+  <a href="faq.html" class="">FAQ</a>
+  <a href="about.html" class="">소개</a>
+  <a href="contact.html" class="">문의</a>
+</nav>
+
+
+<div class="search-container">
+  <form class="search-form" method="get" action="https://duckduckgo.com/">
+    <input type="search" name="q" placeholder="게시글 검색" aria-label="게시글 검색">
+    <button type="submit">검색</button>
+  </form>
+</div>
+
+<main>
+
+<h2>📦 최근 습득 신고</h2>
+<div class="list">
+  <article class="card">
+    <h3>아이폰 14 (보라색)</h3>
+    <p class="meta">습득일: 2025‑05‑25<br>장소: 체육관</p>
+    <p>잠금화면에 강아지 사진이 보입니다. 주인을 찾습니다.</p>
+  </article>
+  <article class="card">
+    <h3>검은색 우산</h3>
+    <p class="meta">습득일: 2025‑05‑22<br>장소: 공대3호관</p>
+    <p>손잡이에 '김OO' 이름표가 붙어 있습니다.</p>
+  </article>
+  <article class="card">
+    <h3>학생증 (김**)</h3>
+    <p class="meta">습득일: 2025‑05‑19<br>장소: 버스정류장</p>
+    <p>행정실에 맡겨두었으니 확인 바랍니다.</p>
+  </article>
+</div>
+
+</main>
+
+<footer>
+  <div class="footer-links">
+    <a href="about.html">소개</a>
+    <a href="contact.html">문의</a>
+    <a href="faq.html">FAQ</a>
+  </div>
+  &copy; 2025 Our University Lost &amp; Found
+</footer>
+
+</body>
+</html>

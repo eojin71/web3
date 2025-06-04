@@ -1,0 +1,7 @@
+
+/* ===== 검색 바 ===== */
+.search-container{padding:1rem 0;display:flex;justify-content:center;background:#ffffff;border-bottom:1px solid #e0e0e0;}
+.search-container form{display:flex;align-items:center;gap:.6rem;}
+.search-container input[type="search"]{padding:.55rem .9rem;border:1px solid #bbb;border-radius:22px;font-size:.9rem;width:400px;}
+.search-container button{padding:.55rem 1rem;border:none;background:#00897b;color:#fff;border-radius:22px;font-size:.85rem;cursor:pointer;}
+.search-container button:hover{background:#00796b;}
